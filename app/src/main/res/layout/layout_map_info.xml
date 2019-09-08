@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/duihuakuangwu_iconfont"
+    android:paddingTop="3dp"
+    android:paddingBottom="15dp"
+    android:paddingRight="50dp"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/textview_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="xxx"
+            android:paddingLeft="15dp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Acid"
+            android:paddingLeft="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textview_number"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="xxx"
+            android:paddingLeft="15dp"/>
+    </LinearLayout>
+</LinearLayout>

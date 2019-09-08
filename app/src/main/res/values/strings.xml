@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">绘画轨迹</string>
+    <string name="home_page_name">姓名：%s</string>
+    <string name="home_page_number">号码：%s</string>
+    <string name="home_page_id">编号：%d</string>
+</resources>
